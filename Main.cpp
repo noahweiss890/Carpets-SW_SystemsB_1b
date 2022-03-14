@@ -30,7 +30,7 @@ int main() {
     cout << "Making your custom mat..." << endl;
     cout << ariel::mat(col, row, symb1, symb2) << endl;
 
-    cout << endl << "Come back soon!";
+    cout << endl << "Come back soon!" << endl;
 
     return 0;
 }
