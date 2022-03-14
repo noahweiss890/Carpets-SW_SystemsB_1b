@@ -28,7 +28,12 @@ int main() {
     cout << endl;
 
     cout << "Making your custom mat..." << endl;
-    cout << ariel::mat(col, row, symb1, symb2) << endl;
+    try {
+        cout << ariel::mat(col, row, symb1, symb2) << endl;
+    }
+    catch (exception& ex) {
+        cout << "   caught exception: " << ex.what() << endl;
+    }
 
     cout << endl << "Come back soon!" << endl;
 
